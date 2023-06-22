@@ -1,0 +1,125 @@
+.new-arrivals {
+  height: 1800px;
+  width: 100%;
+}
+
+.menu-bloque {
+  height: 100px;
+  background-color: #222222;
+}
+
+/*BLOQUE VENTA*/
+.bloque-venta {
+  width: 100%;
+  height: 200px;
+}
+.bloque-grande-venta {
+  width: 100%;
+  height: 425px;
+}
+
+/*hot-deals*/
+.hot-deals{
+    height: 450px;
+    background-color: #222222;
+    width: 100%;
+}
+/**/
+.block-feature{
+    width: 100%;
+    background-color: #fff;
+    height: 120px;
+}
+/*FONDO*/
+.block-fondo {
+  width: 100%;
+  height: 350px;
+}
+/*best cosmetic*/
+.best-cosmetic {
+  height: beight;
+  width: 100%;
+  background-color: #333333;
+}
+/*latest news*/
+.latest-news {
+  background-color: #333333;
+  width: 100%;
+  height: 980px;
+}
+
+.latest-block {
+  background-color: #fff;
+  height: 300px;
+  width: 100%;
+}
+/*Para el buscador*/
+.search-box-cosmetic{
+  background-color: transparent;
+  width: 100%;
+}
+/*FOOTER*/
+.footer-1{
+    background-color: #fff;
+    height: 600px;
+}
+.footer-2{
+    background-color: #333333;
+    height: 600px;
+}
+
+@media screen and (max-width: 1264px) {
+  .latest-news {
+    background-color: #333333;
+    width: 100%;
+    height: auto;
+  }
+  .new-arrivals{
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 768px){
+    .pie-pagina{
+      font-size: 12px;
+    }
+    .new-arrivals{
+      height: auto;
+    }
+    .subscribe-newsleter{
+      height: auto;
+    }
+    .search-box-cosmetic{
+      background-color: transparent;
+    }
+    .menu-bloque{
+      height: auto;
+    }
+}
+
+@media screen and (max-width: 435px){
+  .enlaces ul li a{
+    font-size: 9px;
+  }
+  .menu-bloque h3{
+    font-size: 11px;
+  }
+  .footer-2{
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 639px){
+  
+  .search-box-cosmetic{
+    background-color: transparent;
+    width: 100%;
+    padding: 10px 20px;
+  }
+}
+@media screen and (max-width: 460px){
+  
+  .enlaces ul li a{
+    font-size: 8px;
+  }
+}

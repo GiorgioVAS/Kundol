@@ -1,0 +1,394 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #333333;
+}
+/*definiendo variables*/
+h1{
+  font-family: 'Poppins-Bold';
+  font-size: 30px;
+}
+h2{
+  font-family: 'Poppins-Bold';
+  font-size: 25px;
+}
+p{
+  color: #7B7D79;
+}
+h3{
+  font-family: 'Poppins-Bold';
+}
+/*Cajas*/
+.caja{
+  height: 250px;
+  align-items: center;   
+}
+
+.caja h2{
+  font-family: 'Poppins-Medium';
+  color: red;
+}
+.caja p{
+  font-family: 'Poppins-Bold';
+  font-weight: 200;
+  font-size: 2em;
+  color: #fff;
+}
+
+.caja-contenido2 h2{
+  font-family: 'Poppins-Medium';
+  color: red;
+}
+.caja-contenido2{
+  font-family: 'Poppins-Bold';
+  font-weight: 200;
+  font-size: 2em;
+  color: #fff;  
+}
+
+.figura{
+  padding-left: 60px;
+}
+
+.products{
+  height: 750px;
+  width: 1280px;
+}
+/*Carousel contenedor con tailwind*/
+.carousel {
+  position: relative;
+  height: 500px;
+  overflow: hidden;
+}
+
+.carousel-slide {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 900px;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+.carousel-slide img{
+  object-fit: cover;
+  width: 100%;
+  height: 900px;
+  transition: all 1s cubic-bezier(0.7, 0, 0.3, 1);
+
+}
+.carousel-slide.active {
+  opacity: 2;
+}
+
+
+.slide-block{
+  width: 100%;
+  
+}
+
+
+.carousel-indicators {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.carousel-indicators button {
+  background-color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: background-color 0.5s ease-in-out;
+}
+
+.carousel-indicators button.active {
+  background-color: #000;
+}
+
+.carousel-slide .caja-contenido2{
+  position: absolute;
+  top: 10%; 
+  left: 25%;
+}
+
+/*Enlaces bloques*/
+
+.block1 a{
+    background: green;
+    padding: 3px 25px;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.products h2{
+  font-size: 30px;
+}
+/*New products*/
+
+.content{
+  padding: 35px 0px;
+}
+
+/*diseñando el precio*/
+.price{
+  font-weight: 700;
+  font-size: 20px;
+  color: red;
+  line-height: 1.5em;
+}
+
+.price .old-price{
+  color: #fff;
+  text-decoration: line-through;
+  text-decoration-color: #fff;
+  margin-left: 5px;
+  font-size: 12px;
+
+}
+
+/*SPECIAL*/
+.special{
+  height: 500px;
+  background-color: #222222;
+}
+.caja-contenido3 h2{
+  font-family: 'Poppins-Medium';
+  color: red;
+}
+.caja-contenido3 p{
+  font-family: 'Poppins-SemiBold';
+  color: #E7EFF1;
+}
+.caja-contenido3{
+  font-family: 'Poppins-Bold';
+  font-weight: 200;
+  font-size: 2em;
+  color: #fff;  
+  width: 550px;
+}
+.boton{
+  font-size: 15px;
+  border-radius: 3px;
+}
+.text-red{
+  color: red;
+  font-family: 'Poppins-SemiBold';
+}
+/*Finaliza SPECIAL*/
+
+/*Sellers*/
+.sellers{
+  height: 500px;
+}
+
+.block-1{
+  height: 300px;
+  background-color: #BFBCBC;
+}
+.wood-seating{
+  background-color: #222222;
+  height: 150px;
+  margin: 0 25px;
+}
+
+/*Bloque section wood adirondak*/
+.wood-adirondak{
+  width: 100%;
+  height: 450px;
+  background-color: #222222;
+}
+
+/*Bloque section news-feed*/
+.news-feed{
+  width: 100%;
+  height: auto;
+  background-color: #333333;
+}
+.block-feed img{
+  height: 200px;
+  width: 100%;
+}
+.meta.top {
+  color: #c7c7c7;
+  margin-bottom: 15px;
+}
+.post-comments{
+  color: #D3D6D3;
+}
+
+.wood-contenedor{
+  height: 525px;
+}
+/*NEWSELTER*/
+.newsleter{
+  height: 600px;
+  background-color: #222222;
+}
+.contenido-email{
+  width: 100%;
+  border: 2px solid #7D858C;
+  border-radius: 50px;
+  background-color: transparent;
+}
+
+
+/*FOOTER*/
+footer{
+  background-color: #343A40;
+  height: 50px;
+}
+.iconos-redes{
+  font-size: 20px;
+  color: #fff;
+}
+.iconos-redes i{
+  padding-left: 10px;
+}
+/*Fuentes*/
+@font-face {
+  font-family: 'Poppins-Black';
+  src: url(/Font/Poppins-Black.ttf);  
+}
+@font-face {
+  font-family: 'Poppins-Bold';
+  src: url(/Font/Poppins-Bold.ttf);
+}
+@font-face {
+  font-family: 'Poppins-SemiBold';
+  src: url(/Font/Poppins-SemiBold.ttf);
+}
+@font-face {
+  font-family: 'Poppins-Medium';
+  src: url(/Font/Poppins-Medium.ttf);
+}
+@font-face {
+  font-family: 'Poppins-Thin';
+  src: url(/Font/Poppins-Thin.ttf);
+}
+@font-face {
+  font-family: 'Poppins-Light';
+  src: url(/Font/Poppins-Light.ttf);
+}
+
+/*Media*/
+@media screen and (min-width: 768px){
+  .block-1{
+    height: 250px;
+    width: 350px;
+  }
+}
+
+@media screen and (min-width: 1024px){
+  .block-feed img{
+    height: 250px;
+    width: 400px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .products{
+    height: auto ;
+  }
+  .slide-block img{
+    width: 100%;
+    height: 270px;
+  }
+  .sellers{
+    height: auto;
+  }
+  .block-1{  
+      height: 250px;
+      width: 100%;
+      background-color: #BFBCBC;
+  }
+  .news-feed{
+    height: auto;
+  }
+  .newsleter{
+    height: auto;
+  }
+  .content{
+    padding: 35px 0px;
+  }
+  .carousel-height{
+    height: 800px;
+  }
+  .carousel{
+    height: 300px;
+  }
+  .content img{
+    width: 120px;
+    height: 90px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .block-1{
+    height: 400px;
+    width: 100%;
+    background-color: #BFBCBC;
+  }
+  .wood-seating{
+    margin-top: 350px;
+  }
+
+  .carousel-height{
+    height: 49rem;
+  }
+}
+
+@media screen and (max-width: 640px){
+  .caja-contenido3{
+    text-align: center;
+    margin: 6px 6px;
+  }
+  .texto-footer{
+    font-size: 10px;
+  }
+  .block-seller{
+    margin: 0px 20px;
+  }
+  
+  .wood-seating{
+    margin-top: 200px;
+  }
+  .wood-contenedor{
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 576px){
+  .wood-seating{
+    margin-top: 345px;
+  }
+}
+@media screen and (max-width: 375px){
+  .texto-footer{
+    font-size: 8.1px;
+  }
+}
+
+@media screen and (max-width: 437px){
+  .block1 a{
+    margin: 0px 4px;
+    width: 100%;
+    font-size: 12px; 
+  }
+}
+
+@media screen and (max-width: 371px){
+  .block1 a{
+    margin: 0px 3px;
+    width: 100%;
+    font-size: 7px; 
+  }
+}

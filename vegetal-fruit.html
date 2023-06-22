@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kundol - Vegetal</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/newcoolection.css">
+    <link rel="stylesheet" href="css/newgeneration.css">
+    <link rel="stylesheet" href="css/vegetal.css">
+    <!--======Llamando tailwind=====-->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header>
+        
+<nav style="background-color: #222222;"  class="flex items-center justify-between flex-wrap bg-white border-gray-200 dark:bg-emerald-950 grid sm:grid-cols-3   py-3">
+
+    <div class="flex items-center flex-shrink-0 text-white mr-6 justify-end">
+        <svg class="fill-current h-8 w-8 mr-2" width="54" height="54" viewBox="0 0 54 54" xmlns="http://www.w3.org/2000/svg"><path d="M13.5 22.1c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05zM0 38.3c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05z"/></svg>
+        <span class="font-semibold text-xl tracking-tight">Kundol</span>
+      </div>
+      
+      <!--=======MENU HAMBURGUESA======-->
+      <div class="block lg:hidden justify-end">
+        <button id='boton' class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
+          <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+        </button>
+      </div>
+      <!--=========Buscador========-->
+      <div class="buscador">
+        
+<form>
+    <div class="flex">
+        <div class="relative w-full">
+            <input type="search" id="search-dropdown" class="block p-2.5 w-full z-20 text-sm text-gray-900 bg-gray-50 rounded-r-lg border-l-gray-50 border-l-2 border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-l-gray-700  dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:border-blue-500" placeholder="Search Mockups, Logos, Design Templates..." required>
+            <button type="submit" class="absolute top-0 right-0 p-2.5 text-sm font-medium text-white bg-blue-700 rounded-r-lg border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                <svg aria-hidden="true" class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+                <span class="sr-only">Search</span>
+            </button>
+        </div>
+    </div>
+</form>
+
+      </div>
+      <!--=========MENU GENERAL========-->
+      <div id='menu' class="w-full block flex-grow lg:flex lg:items-center lg:w-auto hidden ">
+
+        <div class="text-sm lg:flex-grow lg:pl-5">
+          <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+            Home
+          </a>
+          <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+            Shop
+          </a>
+          <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+            Product
+          </a>
+          <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+            Elements
+          </a>
+          <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+            Pages
+          </a>
+        </div>
+        <div>
+          
+        </div>
+      </div>
+  </nav>
+    <div class="categorias-menu">
+    <div class="container mx-auto" style="background-color: #333333;">
+
+    </div>
+    </div>
+    </header>
+    <!--========MAIN CONTENIDO=========-->
+    <main>
+      <!--=========CAROUSEL===========-->
+      <div class="pagina-1 container mx-auto">
+      <div class="flex grid grid-cols-1 sm:grid-cols-2 md:mx-24 xl:mx-0 gap-3">
+        <div div id="controls-carousel" class="relative w-full" data-carousel="static">
+        <!-- Carousel wrapper -->
+        <div class="relative h-56 overflow-hidden rounded-lg md:h-72">
+             <!-- Item 1 -->
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img src="img/fondo.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+            
+            </div>
+            <!-- Item 2 -->
+            <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
+                <img src="img/fondo.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+            </div>
+            <!-- Item 3 -->
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img src="img/fondo.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+            </div>
+            <!-- Item 4 -->
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img src="img/fondo.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+            </div>
+            <!-- Item 5 -->
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img src="img/fondo.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+            </div>
+        </div>
+        
+        </div>
+
+        <div class="md:mx-4 lg:mx-12 xl:mx-43 grid grid-cols-1 gap-5">
+            <div class="bloque-principal">
+              <div class="p-3 mx-2">
+                <h1 class="text-white md:text-lg lg:text-2xl" style="font-family: 'Poppins-Bold';">FRESH <br>ORANGE</h1>
+                <a class="text-white md:text-lg " style="font-family: 'Poppins-Light';" href="#">DISCOVER SOON</a>
+              </div>
+            </div>
+            <div class="bloque-principal">
+              <div class="p-3 mx-4">
+                <h1 class="text-white text-2xl" style="font-family: 'Poppins-Bold';">BAKED<br>MUFFINS</h1>
+                <a class="text-white" style="font-family: 'Poppins-Light';" href="#">DISCOVER SOON</a>
+              </div>
+            </div>
+        </div>
+       </div>
+       <br><br><br>
+       <div class="bloque-carousel">
+          <div class="">
+            <h1 style="font-family: 'Poppins-Bold';" class="text-white text-2xl pl-4 pt-2">VEGETABLE & FRUIT</h1>
+          </div>
+        <div class="mx-4 sm:mx-0">
+          <div class="grid grid-cols-2 sm:grid-cols-4 mt-8">
+            
+                  <div class="caja-products">
+                        <div></div>
+                        <div class="mx-6 pt-32">
+                          <p class="" style="color: #6B7277;">Fresh Fruits</p>
+                          <h3 class="text-white">Gala Apples</h3>
+                          <div class="">
+                            <div class="precio-products">
+                              <span class="old-price">$35.00</span>
+                              <span class="new-price">$20.00</span>
+                            </div>               
+                          </div> 
+                        </div>
+                  </div>
+                  <div class="caja-products">
+                    <div></div>
+                    <div class="mx-6 pt-32">
+                      <p class="" style="color: #6B7277;">Fresh Fruits</p>
+                      <h3 class="text-white">Gala Apples</h3>
+                      <div class="">
+                        <div class="precio-products">
+                          <span class="old-price">$35.00</span>
+                          <span class="new-price">$20.00</span>
+                        </div>               
+                      </div> 
+                    </div>
+                  </div>
+                  <div class="caja-products">
+                    <div></div>
+                    <div class="mx-6 pt-32">
+                      <p class="" style="color: #6B7277;">Fresh Fruits</p>
+                      <h3 class="text-white">Gala Apples</h3>
+                      <div class="">
+                        <div class="precio-products">
+                          <span class="old-price">$35.00</span>
+                          <span class="new-price">$20.00</span>
+                        </div>               
+                      </div> 
+                    </div>
+                  </div>
+                  <div class="caja-products">
+                    <div></div>
+                    <div class="mx-6 pt-32">
+                      <p class="" style="color: #6B7277;">Fresh Fruits</p>
+                      <h3 class="text-white">Gala Apples</h3>
+                      <div class="">
+                        <div class="precio-products">
+                          <span class="old-price">$35.00</span>
+                          <span class="new-price">$20.00</span>
+                        </div>               
+                      </div> 
+                    </div>
+                  </div>
+          </div>
+        </div>
+       </div>
+        
+      </div> 
+     <!--=============Fresh and Natural=================-->
+     <section class="fresh-natural py-16 sm:py-0">
+      <div class="container mx-auto text-center justify-items-center sm:pt-24">
+        <h1 class="text-white text-2xl sm:text-7xl">FRESH AND NATURAL</h1>
+        <p class="text-xl sm:text-6xl" style="color: #80BB01;">Get Fresh Jucies From our Firm</p>
+        <br>
+        
+          <button class="boton-discover text-white">DISCOVER SOON</button>
+        </div>
+     </section>
+     <!--=============Best selling=================-->
+     <section class="container mx-auto ">
+      <div class="best-selling mt-12">
+      <div class="bloque-carousel">
+        <h1 style="font-family: 'Poppins-Bold';" class="text-white text-2xl pl-4 pt-2">VEGETABLE & FRUIT</h1>
+      </div>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 mt-12 mx-2 md:mx-8  lg:mx-12">
+            <div class="" style="height: 500px; width:100%; background-color: #E03A3A;">
+              <h1 class="text-white text-5xl p-12">Snacks & candy</h1>
+            </div>
+            <div class="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-4 gap-4 md:gap-1 lg:gap-4 mx-2 sm:mx-0 my-3 sm:my-0">
+              <div class="caja-products2">
+                <div></div>
+                <div class="mx-6 pt-32">
+                  <p class="md:text-xs" style="color: #6B7277;">Fresh Fruits</p>
+                  <h3 class="text-white md:text-xs">Gala Apples</h3>
+                  <div class="">
+                    <div class="precio-products">
+                      <span class="old-price md:text-xs">$35.00</span>
+                      <span class="new-price md:text-xs">$20.00</span>
+                    </div>               
+                  </div> 
+                </div>
+          </div>
+          <div class="caja-products2">
+            <div></div>
+            <div class="mx-6 pt-32">
+              <p class="md:text-xs" style="color: #6B7277;">Fresh Fruits</p>
+              <h3 class="text-white md:text-xs">Gala Apples</h3>
+              <div class="">
+                <div class="precio-products">
+                  <span class="old-price md:text-xs">$35.00</span>
+                  <span class="new-price md:text-xs">$20.00</span>
+                </div>               
+              </div> 
+            </div>
+          </div>
+          <div class="caja-products2">
+            <div></div>
+            <div class="mx-6 pt-32">
+              <p class="md:text-xs" style="color: #6B7277;">Fresh Fruits</p>
+              <h3 class="text-white md:text-xs">Gala Apples</h3>
+              <div class="">
+                <div class="precio-products">
+                  <span class="old-price md:text-xs">$35.00</span>
+                  <span class="new-price md:text-xs">$20.00</span>
+                </div>               
+              </div> 
+            </div>
+         </div>
+          <div class="caja-products2">
+        <div></div>
+        <div class="mx-6 pt-32">
+          <p class="md:text-xs" style="color: #6B7277;">Fresh Fruits</p>
+          <h3 class="text-white md:text-xs">Gala Apples</h3>
+          <div class="">
+            <div class="precio-products">
+              <span class="old-price md:text-xs">$35.00</span>
+              <span class="new-price md:text-xs">$20.00</span>
+            </div>               
+          </div> 
+        </div>
+         </div>
+         <div class="caja-products2">
+          <div></div>
+          <div class="mx-6 pt-32">
+            <p class="md:text-xs" style="color: #6B7277;">Fresh Fruits</p>
+            <h3 class="text-white md:text-xs">Gala Apples</h3>
+            <div class="">
+              <div class="precio-products">
+                <span class="old-price md:text-xs">$35.00</span>
+                <span class="new-price md:text-xs">$20.00</span>
+              </div>               
+            </div> 
+          </div>
+           </div>
+           <div class="caja-products2">
+            <div></div>
+            <div class="mx-6 pt-32">
+              <p class="md:text-xs" style="color: #6B7277;">Fresh Fruits</p>
+              <h3 class="text-white md:text-xs">Gala Apples</h3>
+              <div class="">
+                <div class="precio-products">
+                  <span class="old-price md:text-xs">$35.00</span>
+                  <span class="new-price md:text-xs">$20.00</span>
+                </div>               
+              </div> 
+            </div>
+             </div>
+             <div class="caja-products2">
+              <div></div>
+              <div class="mx-6 pt-32">
+                <p class="md:text-xs" style="color: #6B7277;">Fresh Fruits</p>
+                <h3 class="text-white md:text-xs">Gala Apples</h3>
+                <div class="">
+                  <div class="precio-products">
+                    <span class="old-price md:text-xs">$35.00</span>
+                    <span class="new-price md:text-xs">$20.00</span>
+                  </div>               
+                </div> 
+              </div>
+               </div>
+               <div class="caja-products2">
+                <div></div>
+                <div class="mx-6 pt-32">
+                  <p class="md:text-xs" style="color: #6B7277;">Fresh Fruits</p>
+                  <h3 class="text-white md:text-xs">Gala Apples</h3>
+                  <div class="">
+                    <div class="precio-products">
+                      <span class="old-price md:text-xs">$35.00</span>
+                      <span class="new-price md:text-xs">$20.00</span>
+                    </div>               
+                  </div> 
+                </div>
+                 </div>
+
+    </div>
+            </div>
+      </div>
+     </section>
+     <!--=============Our categories=================-->
+     <section class="otras">
+      <div class="container mx-auto pt-8">
+          <div class="text-white">
+            <h2 class="text-3xl">OUR CATEGORIES</h2>
+          </div>
+          <br>
+          <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-3 sm:gap-0">
+              <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 mx-3 sm:mx-0 gap-4 sm:gap-0">
+
+                  <div class="categorias-block p-5" style="background-color: #C4322D;">
+                     <h2 class="text-white">FRESH<br>MEAT </h2>
+                     <button type="submit" class="boton-more">VIEW RANGE</button>
+                  </div>
+                
+                  <div class="categorias-block p-5" style="background-color: #DC471F;">
+                    <h2 class="text-white">FRESH<br>MEAT </h2>
+                    <button type="submit" class="boton-more">VIEW RANGE</button>
+                 </div>
+
+                 <div class="categorias-block p-5" style="background-color: #2387A0;">
+                  <h2 class="text-white">FRESH<br>MEAT </h2>
+                  <button type="submit" class="boton-more">VIEW RANGE</button>
+                 </div>
+
+                 <div class="categorias-block p-5" style="background-color: #665985;">
+                  <h2 class="text-white">FRESH<br>MEAT </h2>
+                  <button type="submit" class="boton-more">VIEW RANGE</button>
+                 </div>
+
+              </div>
+              <div class="mx-3 my-4 sm:mx-0 my-0">
+              <div class="categoria-grande p-10 sm:mx-0" style="background-color: #169509;">
+                <h2 class="text-white text-4xl">FRUITS &<br>VEGETABLES</h2>
+                <button type="submit" class="boton-more">VIEW RANGE</button>
+              </div>
+            </div>
+          </div>
+      </div>
+     </section>
+<!--=============from our blog=================-->
+    <div class="from-our">
+      <div class="bloque-carousel container mx-auto my-20">
+        <h1 style="font-family: 'Poppins-Bold';" class="text-white text-2xl pl-4 pt-2">FROM OUR BLOG</h1>
+        <div class="mx-6 sm:mx-0">
+        <div class="grid grid-cols-1 sm:grid-cols-3 mt-8 gap-3">
+          <div class="block-feed ">
+            <img src="img/prod-1.jpg" alt="imagen">
+            <div class="post-content pt-4">
+							<h2 class="title text-white"><a href="#">Red onion on chopping board</a></h2>
+							<div class="meta bottom pt-4 mr-4 text-justify lg:mr-8 xl:mr-24">
+								<span class="post-comments">
+									<a href="#">
+                    Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua</a>
+								</span>	
+							</div>
+						</div>
+          </div>
+
+          <div class="block-feed">
+            <img src="img/prod-1.jpg" alt="">
+            <div class="post-content pt-4">
+							<h2 class="title text-white"><a href="#">Red onion on chopping board</a></h2>
+							<div class="meta bottom pt-4 mr-4 text-justify lg:mr-8 xl:mr-24">
+								<span class="post-comments">
+									<a href="#">
+                    Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua</a>
+								</span>	
+							</div>
+						</div>
+          </div>
+          <div class="block-feed">
+            <img src="img/prod-1.jpg" alt="">
+            <div class="post-content pt-4">
+							<h2 class="title text-white"><a href="#">Red onion on chopping board</a></h2>
+							<div class="meta bottom pt-4 mr-4 text-justify lg:mr-8 xl:mr-24">
+								<span class="post-comments">
+									<a href="#">
+                    Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua</a>
+								</span>	
+							</div>
+						</div>
+          </div>
+            </div>
+        </div>  
+      </div>
+    </div>
+    <!--============= SUBSCRIBE NEWSLETTER=================-->
+    <article class="subscribe-newsleter">
+      <div class="container mx-auto py-6 sm:py-16">
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:gap-24">
+          <div class="flex py-4 sm:py-0 justify-center sm:justify-center md:justify-end texto-bloque">
+            <h2 class="text-white text-xs sm:pr-12 sm:pt-4 sm:text-md md:pt-0 md:pr-0 sm:text-basic md:text-lg md:pr-12 md:pt-3 lg:text-2xl ">
+              Sign up for our newsletter to get
+              up-to-date fro</h2>
+          </div>    
+          <div class="search-box flex justify-center sm:justify-center md:justify-end lg:justify-start">
+              <input type="search" class="p-3 px-8 sm:w-72 md:w-72 lg:w-96 " name="search" id="search" placeholder="Enter your email here">
+              <button type="submit"><i class='bx bxs-paper-plane' style='color:#fe4536'></i></button>
+          </div>
+        </div>
+      </div>
+      </article>
+    <!--=============navigation=================-->
+    <section class="navigation2">
+        <div class="container mx-auto ">
+          <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:sm:grid-cols-2 pt-4 md:pt-8 ">
+              <div class=" mx-4 sm:mx-48">
+                <h2 class="text-white sm:text-3xl" >FOLLOW US</h2>
+                <div class="my-8">
+
+                </div>
+              </div>
+              <div class="sm:mx-4">
+                <h2 class="text-white sm:text-3xl" >CONTACT US</h2>
+                <div class="pt-4">
+                  <div>
+                    <i class='bx bx-phone' style='color:#ffffff'> 9887-152-435</i>
+                  </div>
+                  <div class="text-xs md:text-basic lg:text-lg texto-footer">
+                    <i class='bx bx-envelope-open' style='color:#ffffff'> Email@yourcompanyname.com</i>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+
+    </section>
+    <!--=============Fin de navigation=================-->
+    <!--============= FOOTER =================-->
+    <footer class="footer" style="background-color: #169509;">
+      <div class="container mx-auto">
+        <div class="pt-3">
+          <div class="texto-footer flex mx-3 ">
+            <p class="text-white">© 2019 Company, Inc. Privacy • Terms</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--============= FIN DE FOOTER =================-->
+    </main>
+</body>
+
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<script src="js/script.js"></script>
+<script src="js/jquery-3.6.4.js"></script>
+<script src="https://unpkg.com/flowbite@1.4.0/dist/flowbite.js"></script>
+</html>

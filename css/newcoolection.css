@@ -1,0 +1,243 @@
+.title-new{
+    font-family: 'Poppins-Medium';
+    font-size: 18px;
+}
+
+.meta-women{
+    font-family: 'Poppins-Medium';
+    font-size: 11px;
+}
+
+.buy{
+    height: 60px;
+    width: 100%;
+    background-color: #222222;
+}
+
+.price-new{
+    padding: 15px 10px;
+}
+
+.price-new .old-price{
+    font-size: 20px;
+}
+
+.trending{
+    height: 600px;
+    background-color: #222222;;
+}
+
+
+.block-2{
+  height: 300px;
+  background-color: #222222;
+}
+.block-2 h2{
+    font-family: 'Poppins-Medium';
+}
+/*diseñando el precio*/
+.price2{
+    font-weight: 700;
+    font-size: 20px;
+    color: red;
+    line-height: 1.5em;
+  }
+  
+  .price2 .old-price{
+    color: #7D858C;
+    text-decoration: line-through;
+    text-decoration-color: #fff;
+    font-size: 16px;
+  
+}
+
+/*NEWEST COLLECTION*/
+.text-women{
+    font-family: 'Poppins-SemiBold';
+}
+
+/*FROM OUR*/
+.from-our{
+    width: 100%;
+    height: 500px;
+    background-color: #333333;
+}
+
+.box-from{
+    width: 100%;
+    height: 350px;
+    background-color: #767676;
+}
+
+.box-from2{
+    width: 100%;
+    height: 350px;
+    border-color: #767676;
+    background-color: transparent;
+    border: 1px solid #767676;
+}
+
+.box-texto h2{
+    color: #fff;
+    font-family: 'Poppins-Medium';
+}
+.box-texto p {
+    color: #fff;
+    
+}
+/*Fin FROM OUR*/
+/*SUBSCRIBE NEWSLETTER*/
+.subscribe-newsleter{
+    width: 100%;
+    height: 150px;
+    background-color: #343A40;
+}
+.search-box input{
+    background-color: #222222;
+    border-color: #7D858C;
+    border: 1px solid #7D858C;
+    font-size: 14px;
+}
+/* Fin de SUBSCRIBE NEWSLETTER*/
+
+
+/*footer*/
+.footer-new{
+    height: 240px;
+    width: 100%;
+    background-color: #333333;
+}
+
+.lista-footer ul li{
+    list-style: circle;
+    color: #fff;
+}
+
+.lista-footer ul li a{
+    font-size: 16px;
+}
+
+.redes-footer ul li{
+    color: #fff;
+}
+.redes-footer ul li a{
+    font-size: 16px;
+}
+
+.pie-pagina{
+    border-top: 1px solid #fff;
+}
+/*Fin de footer*/
+@media screen and (min-width: 1024px){
+    .block-new img{
+      height: 300px;
+      width: 100%;
+    }
+  }
+
+/*Media*/
+@media screen and (min-width: 768px){
+    .block-1{
+      height: 250px;
+      width: 350px;
+    }
+  }
+  
+  @media screen and (min-width: 1024px){
+    .block-feed img{
+      height: 250px;
+      width: 400px;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    .trending{
+        height: auto;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .block-1{
+      height: 400px;
+      width: 100%;
+      background-color: #BFBCBC;
+    }
+    .wood-seating{
+      margin-top: 350px;
+    }
+    .box-from{
+      margin-left: 20px;
+      margin-right: 20px;
+      width: 80%;
+      height: 350px;
+      background-color: #767676;
+  }
+  
+  .box-from2{
+      width: 100%;
+      height: 350px;
+      border-color: #767676;
+      background-color: transparent;
+      border: 1px solid #767676;
+  }
+  .from-our{
+    height: auto;
+  }
+  .box-texto{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 50px;
+  }
+  .box-texto h2{
+    font-size: 20px;
+  }
+  .subscribe-newsleter h2{
+    font-size: 18px;
+  }
+  .subscribe-newsleter h2::after{
+    justify-content: left;
+  }
+}
+  
+  @media screen and (max-width: 640px){
+    .caja-contenido3{
+      text-align: center;
+      margin: 6px 6px;
+    }
+    .texto-footer{
+      font-size: 10px;
+    }
+    .block-seller{
+      margin: 0px 20px;
+    }
+    
+    .wood-seating{
+      margin-top: 200px;
+    }
+  }
+  
+  @media screen and (max-width: 576px){
+    .wood-seating{
+      margin-top: 345px;
+    }
+  }
+  @media screen and (max-width: 375px){
+    .texto-footer{
+      font-size: 8.1px;
+    }
+  }
+  
+  @media screen and (max-width: 437px){
+    .block1 a{
+      margin: 0px 4px;
+      width: 100%;
+      font-size: 12px; 
+    }
+  }
+  
+  @media screen and (max-width: 371px){
+    .block1 a{
+      margin: 0px 3px;
+      width: 100%;
+      font-size: 7px; 
+    }
+  }

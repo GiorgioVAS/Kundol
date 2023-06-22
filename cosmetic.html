@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kundol - Cosmetic</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/newcoolection.css">
+    <link rel="stylesheet" href="css/newgeneration.css">
+    <link rel="stylesheet" href="css/vegetal.css">
+    <link rel="stylesheet" href="css/cosmetic.css">
+    <!--======Llamando tailwind=====-->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header>
+        
+<nav style="background-color: #222222;"  class="flex items-center justify-between flex-wrap bg-white border-gray-200 dark:bg-emerald-950 grid sm:grid-cols-3   py-3">
+
+    <div class="flex items-center flex-shrink-0 text-white mr-6 justify-end">
+        <svg class="fill-current h-8 w-8 mr-2" width="54" height="54" viewBox="0 0 54 54" xmlns="http://www.w3.org/2000/svg"><path d="M13.5 22.1c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05zM0 38.3c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05z"/></svg>
+        <span class="font-semibold text-xl tracking-tight">Kundol</span>
+      </div>
+      
+      <!--=======MENU HAMBURGUESA======-->
+      <div class="block lg:hidden justify-end">
+        <button id='boton' class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
+          <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+        </button>
+      </div>
+      <!--=========MENU GENERAL========-->
+      <div id='menu' class="w-full block flex-grow lg:flex lg:items-center lg:w-auto hidden ">
+
+        <div class="text-sm lg:flex-grow lg:pl-5">
+          <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+            Home
+          </a>
+          <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+            Shop
+          </a>
+          <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+            Product
+          </a>
+          <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+            Elements
+          </a>
+          <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+            Pages
+          </a>
+        </div>
+        <div>
+          
+        </div>
+      </div>
+  </nav>
+    </header>
+    <!--========MAIN CONTENIDO=========-->
+    <main>
+      <!--=========CAROUSEL===========-->
+      <div class="carousel">
+        <div class="carousel-slide">
+          <img src="img/fondo.png" alt="Image 1">
+
+          <div class="caja-contenido2">
+            <h2 class="text-xs sm:text-sm md:text-2xl lg:text-3xl xl:text-4xl">NEW COLLECTION</h2>
+            <p class="text-xs text-white sm:text-sm md:text-2xl lg:text-3xl xl:text-4xl">We Have Larget<br>Collection of Fashion</p>
+            <button class="p-2 bg-red-600 reunded-5 mt-3 text-xs text-white sm:text-sm md:text-md lg:text-lg xl:text-2xl">Shop Now</button>
+          </div>
+
+        </div>
+        <div class="carousel-slide">
+          <img src="img/fondo.png" alt="Image 2">
+        </div>
+        <div class="carousel-slide">
+          <img src="img/fondo.png" alt="Image 3">
+        </div>
+        <div class="carousel-indicators"></div>
+      </div>
+      <!--=============NEW ARRIVALS=================-->
+      <article class="new-arrivals">
+          <div class="container mx-auto">
+            <div class="my-8 sm:my-16 lg:my-24">
+              <div class="menu-bloque xl:mx-48">
+                  <div class="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-4">
+                    <div class="flex justify-center content-center pt-8">
+                      <div class="">
+                      <i class='bx bxs-truck iconos-block' style='color:#ffffff;font-size: 30px;'></i>
+                      </div>
+                      <h3 class="text-white mx-3 sm:text-xs md:text-lg">FREE SHIPING</h3>
+                    </div>
+                    <div class="flex justify-center content-center pt-8">
+                      <i class='bx bx-store' style='color:#ffffff; font-size: 30px;'  ></i>
+                      <h3 class="text-white mx-3 sm:text-xs md:text-lg">24/7 SUPPORT</h3>
+                    </div>
+                    <div class="flex justify-center content-center pt-8">
+                      <i class='bx bxs-megaphone' style='color:#ffffff; font-size: 30px;' ></i>
+                      <h3 class="text-white mx-3 sm:text-xs md:text-lg">FESTIVAL OFFERS</h3>
+                    </div>
+                    <div class="flex justify-center content-center pt-8 my-4 sm:my-0">
+                      <i class='bx bx-credit-card' style='color:#ffffff; font-size: 30px;' ></i>
+                      <h3 class="text-white mx-3 sm:text-xs md:text-lg">ONLINE PAYMENT</h3>
+                    </div>
+                  </div>
+              </div>
+              <div class="lg:mx-48 mt-8">
+                <div class="bloque-carousel " style="background-color: transparent
+                ;">
+                  <h1 style="font-family: 'Poppins-Bold';" class="text-white text-2xl pl-4 pt-2 underline  decoration-red-300">NEW ARRIVALS</h1>   
+                </div>
+              </div>
+              
+
+              <div class="pt-8 md:mx-12 lg:mx-48 md:my-8 lg:my-0">
+                <div class=" grid md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5 xl:gap-4  ">
+        
+                  <div class="block-arrivals">
+                   <img src="img/prod-1.jpg" alt="imagen">
+                  <div class="post-content pt-4 pl-2">
+                    <h3 class="title-new text-center md:text-sm" style='color:#C6F9FB'><a href="#">Lipstick Velvet Matte</a></h3>
+                  </div>
+                
+                  <div class="price text-center">
+                    <div>
+                      <span class="new-price">$30.00</span>
+                      <span class="old-price">$65.00</span>
+                    </div>    
+                                          
+                  </div>   
+                </div>
+              
+        
+                <div class="block-arrivals">
+                  <img src="img/prod-1.jpg" alt="imagen">
+                  <div class="post-content pt-4 pl-2">
+                    <h3 class="title-new text-center md:text-sm" style='color:#C6F9FB'><a href="#">Eyebrow Gel Waterproof</a></h3>
+                  </div>
+                  
+                    <div class="price">
+                      <div class="text-center">
+                        <span class="new-price">$30.00</span>
+                        <span class="old-price">$60.00</span>
+                      </div>    
+                                       
+                      </div>   
+                </div>
+        
+                <div class="block-arrivals">
+                  <img src="img/prod-1.jpg" alt="imagen">
+                  <div class="post-content pt-4 pl-2">
+                    <h3 class="title-new text-center md:text-sm" style='color:#C6F9FB'><a href="#">Makeup Brush Set</a></h3>
+                  </div>
+                  
+                    <div class="price">
+                      <div class="text-center">
+                        <span class="new-price">$30.00</span>
+                        <span class="old-price">$60.00</span>
+                      </div>    
+                                       
+                      </div>   
+                  </div>
+          
+                </div>
+              </div>
+              
+            </div>
+
+            <div class="lg:mx-48">
+              <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 md:grid-cols-2 gap-4">
+                <div>
+                  <div class="bloque-venta" style="background-color:#FDE7E5;">
+
+                  </div>
+                  <br>
+                  <div class="bloque-venta" style="background-color: #E7FBFE;">
+                    
+                  </div>
+                </div>
+                <div>
+                  <div class="bloque-grande-venta " style="background-color: #FEE3D3;">
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="mx-4 my-8 sm:mx-4 lg:mx-48 pt-8">
+              <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-6">
+                
+                <div class="text-white text-xl">
+                  <div>
+                    <h2>HOT DEALS</h2>
+                  </div>
+                  
+
+                  <div class="hot-deals mt-6">
+                    <div class="pt-60">
+                      <div class="flex justify-center" style="height: 60px;">
+                        <img src="img/estrellas.png" alt="">
+                      </div>
+                      <p class="text-white text-xl text-center">Lipstick Velvet Matte</p>
+                      <div class="price text-center">
+                        <div class="text-sm">
+                          <span class="new-price">$30.00</span>
+                          <span class="old-price">$60.00</span>
+                        </div>                        
+                      </div>
+                    </div>
+                    <div class="flex justify-center">
+                      <p class="text-white text-center" style="padding: 3px 4px; font-size: 16px;">Availablity:</p>
+                      <p class="text-red" style="padding: 5px 4px; font-size:16px;">200 in Stock</p>
+                    </div>
+                    <div class="flex justify-center">
+                      <p class="text-red" style="padding: 5px 4px; font-size:16px;">Hurry up!</p>
+                      <p class="text-white text-center" style="padding: 3px 4px; font-size: 16px;">Limited time offer</p>  
+                    </div>
+                  </div>
+                  <div>
+                  </div>
+                </div>
+
+
+
+                <div class="text-white text-xl md:mx-4 md:my-8 lg:mx-0 ">
+                  <div>
+                    <h2>FEATURE PRODUCTS</h2>
+                  </div>
+
+                  <div class="pt-6 grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-8">
+                    <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2">
+                        
+                        <div class="block-feature">
+
+                        </div>
+                        <div class="mx-2 pt-8">
+                          <p class="text-white text-sm ">Makeup Kit</p>
+                          <div class="price text-center">
+                            <div class="text-sm">
+                              <span class="new-price">$30.00</span>
+                              <span class="old-price">$60.00</span>
+                            </div>                        
+                          </div>
+                        </div>
+                    </div>
+                    <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2">
+                        
+                      <div class="block-feature">
+
+                      </div>
+                      <div class="mx-2 pt-8">
+                        <p class="text-white text-sm ">Makeup Kit</p>
+                        <div class="price text-center">
+                          <div class="text-sm">
+                            <span class="new-price">$30.00</span>
+                            <span class="old-price">$60.00</span>
+                          </div>                        
+                        </div>
+                      </div>
+                  </div>
+                  <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2">
+                        
+                    <div class="block-feature">
+
+                    </div>
+                    <div class="mx-2 pt-8">
+                      <p class="text-white text-sm ">Makeup Kit</p>
+                      <div class="price text-center">
+                        <div class="text-sm">
+                          <span class="new-price">$30.00</span>
+                          <span class="old-price">$60.00</span>
+                        </div>                        
+                      </div>
+                    </div>
+                </div>
+                <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2">
+                        
+                  <div class="block-feature">
+
+                  </div>
+                  <div class="mx-2 pt-8">
+                    <p class="text-white text-sm ">Makeup Kit</p>
+                    <div class="price text-center">
+                      <div class="text-sm">
+                        <span class="new-price">$30.00</span>
+                        <span class="old-price">$60.00</span>
+                      </div>                        
+                    </div>
+                  </div>
+              </div>
+              <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2">
+                        
+                <div class="block-feature">
+
+                </div>
+                <div class="mx-2 pt-8">
+                  <p class="text-white text-sm ">Makeup Kit</p>
+                  <div class="price text-center">
+                    <div class="text-sm">
+                      <span class="new-price">$30.00</span>
+                      <span class="old-price">$60.00</span>
+                    </div>                        
+                  </div>
+                </div>
+            </div>
+            <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2">
+                        
+              <div class="block-feature">
+
+              </div>
+              <div class="mx-2 pt-8">
+                <p class="text-white text-sm ">Makeup Kit</p>
+                <div class="price text-center">
+                  <div class="text-sm">
+                    <span class="new-price">$30.00</span>
+                    <span class="old-price">$60.00</span>
+                  </div>                        
+                </div>
+              </div>
+          </div>
+                  </div>
+                </div>
+            </div>
+            </div>
+          </div>
+      </article>
+     <!--=============FONDO=================-->
+     <section class="">
+        <div class=" grid grid-cols-1 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-4">
+              <div class="block-fondo" style="background-color: #767676;">
+
+              </div>
+              <div class="block-fondo" style="background-color: #9E4B47;">
+
+              </div>
+              <div class="block-fondo" style="background-color: #767676;">
+
+              </div>
+              <div class="block-fondo" style="background-color: #D79768;">
+
+              </div>
+                <!--=============Separacion=================-->
+              <div class="block-fondo" style="background-color: #C49C7B;">
+
+              </div>
+              <div class="block-fondo" style="background-color: #767676;">
+
+              </div>
+              <div class="block-fondo" style="background-color: #241C1C;">
+
+              </div>
+              <div class="block-fondo" style="background-color: #767676;">
+
+              </div>
+        </div>
+     </section>
+     <!--=============Best selling=================-->
+     <section class="best-cosmetic">
+      <div class="lg:mx-48 xl:mx-76 ">
+        <div class="bloque-carousel pt-28 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3" style="background-color: transparent;">
+          <div>
+            <h1 style="font-family: 'Poppins-Bold';" class="text-white text-2xl pl-4 pt-2 underline  decoration-red-300">BEST SELLING</h1>
+          </div>
+          <div class="enlaces pt-2 text-xs sm:text-sm md:text-basic lg:text-xl">
+            <ul class="text-white flex pl-2 sm:pl-0">
+              <li class="px-2 sm:px-4"><a href="#">All</a></li>
+              <li class="px-2 sm:px-4" ><a href="#">Lipsticks</a></li>
+              <li class="px-2 sm:px-4" ><a href="#">Brushes</a></li>
+              <li class="px-2 sm:px-4" ><a href="#">Eyebrows</a></li>
+              <li class="px-2 sm:px-4" ><a href="#">MakeupKits</a></li>
+              <li class="px-2 sm:px-4" ><a href="#">Bags</a></li>
+            </ul>
+          </div>
+        </div>
+        <!--=============CARRUSEL=================-->
+        <div class="mt-20 mx-4">
+          <div class=" grid md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5 xl:gap-28  ">
+  
+            <div class="block-arrivals">
+             <img src="img/prod-1.jpg" alt="imagen">
+            <div class="post-content pt-4 pl-2">
+              <h3 class="title-new text-center" style='color:#C6F9FB'><a href="#">Lipstick Velvet Matte</a></h3>
+            </div>
+          
+            <div class="price text-center">
+              <div>
+                <span class="new-price">$30.00</span>
+                <span class="old-price">$65.00</span>
+              </div>                        
+            </div>   
+            </div>
+        
+  
+          <div class="block-arrivals">
+            <img src="img/prod-1.jpg" alt="imagen">
+            <div class="post-content pt-4 pl-2">
+              <h3 class="title-new text-center" style='color:#C6F9FB'><a href="#">Eyebrow Gel Waterproof</a></h3>
+            </div>
+            
+              <div class="price">
+                <div class="text-center">
+                  <span class="new-price">$30.00</span>
+                  <span class="old-price">$60.00</span>
+                </div>    
+                                 
+                </div>   
+          </div>
+  
+          <div class="block-arrivals">
+            <img src="img/prod-1.jpg" alt="imagen">
+            <div class="post-content pt-4 pl-2">
+              <h3 class="title-new text-center" style='color:#C6F9FB'><a href="#">Makeup Brush Set</a></h3>
+            </div>
+            
+              <div class="price">
+                <div class="text-center">
+                  <span class="new-price">$30.00</span>
+                  <span class="old-price">$60.00</span>
+                </div>    
+                                 
+                </div>   
+            </div>
+    
+          
+
+
+          <div class="block-arrivals">
+            <img src="img/prod-1.jpg" alt="imagen">
+           <div class="post-content pt-4 pl-2">
+             <h3 class="title-new text-center" style='color:#C6F9FB'><a href="#">Lipstick Velvet Matte</a></h3>
+           </div>
+         
+           <div class="price text-center">
+             <div>
+               <span class="new-price">$30.00</span>
+               <span class="old-price">$65.00</span>
+             </div>    
+                                   
+           </div>   
+         </div>
+       
+         <!--=============Division=================-->
+         <div class="block-arrivals">
+           <img src="img/prod-1.jpg" alt="imagen">
+           <div class="post-content pt-4 pl-2">
+             <h3 class="title-new text-center" style='color:#C6F9FB'><a href="#">Eyebrow Gel Waterproof</a></h3>
+           </div>
+           
+             <div class="price">
+               <div class="text-center">
+                 <span class="new-price">$30.00</span>
+                 <span class="old-price">$60.00</span>
+               </div>    
+                                
+               </div>   
+         </div>
+ 
+         <div class="block-arrivals">
+           <img src="img/prod-1.jpg" alt="imagen">
+           <div class="post-content pt-4 pl-2">
+             <h3 class="title-new text-center" style='color:#C6F9FB'><a href="#">Makeup Brush Set</a></h3>
+           </div>
+           
+             <div class="price">
+               <div class="text-center">
+                 <span class="new-price">$30.00</span>
+                 <span class="old-price">$60.00</span>
+               </div>    
+                                
+               </div>   
+           </div>
+         </div>
+      </div>
+     </section>
+    
+     <!--=============latest news=================-->
+     <section class="container mx-auto mt-12 ">
+      <div class="latest-news">
+        <div class="flex justify-center pt-48">
+          <h1 style="font-family: 'Poppins-Bold';" class="text-white text-2xl  underline  decoration-red-300">LATEST NEWS</h1>
+        </div>
+        <div class="mx-72">
+          
+          <div class="bloque-carousel pt-28 grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2" style="background-color: transparent;">
+           
+          </div>
+        </div>  
+        <div class="mx-4 ">
+          <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-4 lg:mx-72">
+            <div>
+              <div class="latest-block"></div>
+              <div>
+                <h2 class="text-red text-xl pt-4">1ST JAN 2020</h2>
+                <p class="text-white text-lg pt-2">Lorem ipsum dolor sit, amet consectetur<br> adipisicing elit.</p>
+                <p class="text-lg pt-4" style="color: #999999;">BY: JHON LILY</p>
+              </div>
+            </div>
+
+            <div>
+              <div class="latest-block"></div>
+              <div>
+                <h2 class="text-red text-xl pt-4">1ST JAN 2020</h2>
+                <p class="text-white text-lg pt-2">Lorem ipsum dolor sit, amet consectetur<br> adipisicing elit.</p>
+                <p class="text-lg pt-4" style="color: #999999;">BY: JHON LILY</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <br><br><br>
+         <div class="mx-auto lg:mx-72 my-6">
+          <h2 style="font-family: 'Poppins-Bold';" class="text-white text-2xl pl-4 pt-2 underline  decoration-red-500">@FOLLOW US INSTAGRAM</h2>
+         </div> 
+      </div>
+     </section>
+    <!--============= SUBSCRIBE NEWSLETTER=================-->
+    <article class="subscribe-newsleter" style="background-color: #9E4B47;">
+      <div class="container mx-auto md:py-8">
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:gap-24">
+          <div class="flex  justify-center sm:justify-center md:justify-end my-8 lg:my-0">
+            <h2 class="text-white sm:pr-12 sm:pt-4 sm:text-md md:pt-0 md:pr-0 md:text-lg md:pr-12 md:pt-3 lg:text-2xl ">
+              SIGN UP FOR NEWSLETER</h2>
+          </div>    
+          <div class="flex justify-center sm:justify-center md:justify-end lg:justify-start mx-8 sm:mx-0 my-8 lg:my-0" style="
+            background-color: transparent;
+            border: 1px solid #fff;
+            font-size: 14px;
+            color: #B090AA;
+            ">
+              <input type="search" class="p-3 px-8 w-full sm:w-72 md:w-72 lg:w-96 search-box-cosmetic" name="search" id="search" placeholder="Enter your email here">
+              <button type="submit" class="boton-submit" style="
+                width: 100px;
+                background-color: #fff;
+                color: #9E4B47;">SUBMIT</button>
+          </div>
+        </div>
+      </div>
+      </article>
+    <!--=============Fin de navigation=================-->
+    <!--============= FOOTER =================-->
+    <footer class="footer" style="height: auto;">
+      <div class="mx-auto">
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2">
+          <div class="footer-1 hidden md:flex">
+            <div class="pt-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2">
+              <div></div>
+              <div>
+                <div class="flex items-center flex-shrink-0 text-white mr-6 pl-16" style="color: #000;">
+                  <svg class="fill-current h-8 w-8 mr-2" width="54" height="54" viewBox="0 0 54 54" xmlns="http://www.w3.org/2000/svg"><path d="M13.5 22.1c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05zM0 38.3c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05z"/></svg>
+                  <span class="font-semibold text-xl tracking-tight" style=" font-size: 32px;">Tailwind CSS</span>
+                </div>
+                <p class="pt-6 flex justify-end mx-3" style="color: #3B2426;">Lorem ipsum dolor sit amet consectetur <br>adipisicing elit.<br> Voluptas cupiditate ipsam aut</p>
+                <div class="iconos-redes flex pt-4 pl-16" style="color: #000;">
+                  <i class='bx bxl-facebook-circle'></i>
+                  <i class='bx bxl-instagram' ></i>
+                  <i class='bx bxl-twitter' ></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer-2">
+            <div class="mx-6 my-8 grid grid-cols-1 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-4 gap-1 lg:gap-6">
+              <div class="pie-pagina">
+                <h4 class="text-white sm:text-sm lg:text-2xl ">INFORMATION</h4>
+                <div class="pt-4">
+                  <ul class="text-white">
+                    <li><a href="#">about Us</a></li>
+                    <br>
+                    <li><a href="#">Service</a></li>
+                    <br>
+                    <li><a href="#">Recent</a></li>
+                    <br>
+                    <li><a href="#">Seller</a></li>
+                    <br>
+                    <li><a href="#">Privacy</a></li>
+                    <br>
+                    <li><a href="#">Policy</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="pie-pagina">
+                <h4 class="text-white sm:text-sm lg:text-2xl">TOP BRANDS</h4>
+                <div class="pt-4">
+                  <ul class="text-white">
+                    <li><a href="#">Mac</a></li>
+                    <br>
+                    <li><a href="#">Revlon</a></li>
+                    <br>
+                    <li><a href="#">Maybelline</a></li>
+                    <br>
+                    <li><a href="#">Clinique</a></li>
+                    <br>
+                    <li><a href="#">L'Oreal</a></li>
+                    <br>
+                    <li><a href="#">Oriflame</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="pie-pagina">
+                <h4 class="text-white sm:text-sm lg:text-2xl">CATEGORIE</h4>
+                <div class="pt-4">
+                  <ul class="text-white">
+                    <li><a href="#">Fashion</a></li>
+                    <br>
+                    <li><a href="#">Accesories</a></li>
+                    <br>
+                    <li><a href="#">Cosmetics</a></li>
+                    <br>
+                    <li><a href="#">Makeup Kits</a></li>
+                    <br>
+                    <li><a href="#">Brushes</a></li>
+                    <br>
+                    <li><a href="#">Fashion Bags</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="pie-pagina">
+                <h4 class="text-white sm:text-sm lg:text-2xl">My Account</h4>
+                <div class="pt-4">
+                  <ul class="text-white">
+                    <li><a href="#">Sign In</a></li>
+                    <br>
+                    <li><a href="#">View Cart</a></li>
+                    <br>
+                    <li><a href="#">My Wishlist</a></li>
+                    <br>
+                    <li><a href="#">Track Order</a></li>
+                    <br>
+                    <li><a href="#">Shipping Policy</a></li>
+                    <br>
+                    <li><a href="#">Help</a></li>
+                  </ul>
+                </div>
+              </div>
+
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-1">
+              <div class="mx-6 pt-6">
+                <p class="text-white text-xs">2015-2019 companyname.com All rights are reserved</p>
+              </div>
+            </div>
+          </div>
+          <div class="footer-1 md:hidden">
+            <div class="pt-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2">
+              <div>
+                <div class="flex items-center flex-shrink-0 text-white mr-6 pl-16" style="color: #000;">
+                  <svg class="fill-current h-8 w-8 mr-2" width="54" height="54" viewBox="0 0 54 54" xmlns="http://www.w3.org/2000/svg"><path d="M13.5 22.1c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05zM0 38.3c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05z"/></svg>
+                  <span class="font-semibold text-xl tracking-tight" style=" font-size: 32px;">Tailwind CSS</span>
+                </div>
+                <p class="pt-6 flex justify-end mx-3" style="color: #3B2426;">Lorem ipsum dolor sit amet consectetur <br>adipisicing elit.<br> Voluptas cupiditate ipsam aut</p>
+                <div class="iconos-redes flex pt-4 pl-16" style="color: #000;">
+                  <i class='bx bxl-facebook-circle'></i>
+                  <i class='bx bxl-instagram' ></i>
+                  <i class='bx bxl-twitter' ></i>
+                </div>
+              </div>
+              <div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--============= FIN DE FOOTER =================-->
+    </main>
+</body>
+
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<script src="js/script.js"></script>
+<script src="js/jquery-3.6.4.js"></script>
+<script src="https://unpkg.com/flowbite@1.4.0/dist/flowbite.js"></script>
+</html>

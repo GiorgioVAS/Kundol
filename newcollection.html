@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kundol- New Collection</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/newcoolection.css">
+    <!--======Llamando tailwind=====-->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header>
+        
+<nav style="background-color: #222222;"  class="flex items-center justify-between flex-wrap bg-white border-gray-200 dark:bg-emerald-950 grid sm:grid-cols-2   py-3">
+
+    <div class="flex items-center flex-shrink-0 text-white mr-6 justify-end">
+        <svg class="fill-current h-8 w-8 mr-2" width="54" height="54" viewBox="0 0 54 54" xmlns="http://www.w3.org/2000/svg"><path d="M13.5 22.1c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05zM0 38.3c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05z"/></svg>
+        <span class="font-semibold text-xl tracking-tight">Kundol</span>
+      </div>
+      
+      <!--=======MENU HAMBURGUESA======-->
+      <div class="block lg:hidden justify-end">
+        <button id='boton' class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
+          <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+        </button>
+      </div>
+      <!--=========MENU GENERAL========-->
+      <div id='menu' class="w-full block flex-grow lg:flex lg:items-center lg:w-auto hidden ">
+
+        <div class="text-sm lg:flex-grow lg:pl-5">
+          <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+            Home
+          </a>
+          <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+            Shop
+          </a>
+          <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+            Product
+          </a>
+          <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+            Elements
+          </a>
+          <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+            Pages
+          </a>
+        </div>
+        <div>
+          
+        </div>
+      </div>
+  </nav>
+    </header>
+    <!--========MAIN CONTENIDO=========-->
+    <main>
+      <!--=========CAROUSEL===========-->
+      <div class="carousel">
+        <div class="carousel-slide">
+          <img src="img/fondo.png" alt="Image 1">
+
+          <div class="caja-contenido2">
+            <h2 class="text-xs sm:text-sm md:text-2xl lg:text-3xl xl:text-4xl">NEW COLLECTION</h2>
+            <p class="text-xs text-white sm:text-sm md:text-2xl lg:text-3xl xl:text-4xl">We Have Larget<br>Collection of Fashion</p>
+            <button class="p-2 bg-red-600 reunded-5 mt-3 text-white sm:text-sm md:text-md lg:text-lg xl:text-2xl text-xs">Shop Now</button>
+          </div>
+
+        </div>
+        <div class="carousel-slide">
+          <img src="img/fondo.png" alt="Image 2">
+        </div>
+        <div class="carousel-slide">
+          <img src="img/fondo.png" alt="Image 3">
+        </div>
+        <div class="carousel-indicators"></div>
+      </div>
+      
+      
+      
+      
+
+<!--=======CONTENEDOR DE BLOQUES==========-->
+<section class="container mx-auto px-4 py-4">
+    <h2 class="text-white text-3xl py-8">FEATURED DEALS</h2>
+
+    <div class="row grid md:grid-cols-1 lg:grid-cols-3 xl:grid-cols-3 gap-5 xl:gap-8 py-8 mx-auto">
+        
+            <div class="block-new">
+              <img src="img/prod-1.jpg" alt="imagen">
+              <div class="post-content pt-4 pl-2">
+                <h2 class="title-new" style='color:#C6F9FB'><a href="#">Denim Jacket for Women</a></h2>
+                <div class="meta-women bottom pt-2 mr-4 text-justify lg:mr-8 xl:mr-24">
+                    <h3 style='color:#C6F9FB'>Women Collection</h3>	
+                </div>
+              </div>
+              <div class="buy mt-2">
+                <div class="price price-new pl-3 grid grid-cols-1 md:grid-cols-2">
+                  <div>
+                    <span class="new-price">$60.00</span>
+                    <span class="old-price">$85.00</span>
+                  </div>    
+                    <button class="px-3 py-1 bg-red-600 reunded-2 text-white text-lg boton">ADD TO CART</button>               
+                  </div>   
+              </div>
+            </div>
+  
+            <div class="block-new pt-8 sm:pt-2 md:pt-2">
+              <img src="img/prod-1.jpg" alt="imagen">
+              <div class="post-content pt-4 pl-2">
+                <h2 class="title-new" style='color:#C6F9FB'><a href="#">Denim Jacket for Women</a></h2>
+                <div class="meta-women bottom pt-2 mr-4 text-justify lg:mr-8 xl:mr-24">
+                    <h3 style='color:#C6F9FB'>Women Collection</h3>	
+                </div>
+              </div>
+              <div class="buy mt-2">
+                <div class="price price-new pl-3 grid grid-cols-1 md:grid-cols-2">
+                  <div>
+                    <span class="new-price">$60.00</span>
+                    <span class="old-price">$85.00</span>
+                  </div>    
+                    <button class="px-3 py-1 bg-red-600 reunded-2 text-white text-lg boton">ADD TO CART</button>               
+                  </div>    
+              </div>
+            </div>
+
+            <div class="block-new pt-8 sm:pt-2 md:pt-2">
+              <img src="img/prod-1.jpg" alt="imagen">
+              <div class="post-content pt-4 pl-2">
+                <h2 class="title-new" style='color:#C6F9FB'><a href="#">Denim Jacket for Women</a></h2>
+                <div class="meta-women bottom pt-2 mr-4 text-justify lg:mr-8 xl:mr-24">
+                    <h3 style='color:#C6F9FB'>Women Collection</h3>	
+                </div>
+              </div>
+              <div class="buy mt-2">
+                <div class="price price-new pl-3 grid grid-cols-1 md:grid-cols-2">
+                  <div>
+                    <span class="new-price">$60.00</span>
+                    <span class="old-price">$85.00</span>
+                  </div>    
+                    <button class="px-3 py-1 bg-red-600 reunded-2 text-white text-lg boton">ADD TO CART</button>               
+                  </div>  
+              </div>
+            </div>
+              
+        
+    </div>
+
+    <h2 class="text-white text-3xl py-8">NEW ARRIVALS</h2>
+    <div class="row grid md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4 gap-5 xl:gap-8 py-8 mx-auto">
+        
+      <div class="block-arrivals">
+        <img src="img/prod-1.jpg" alt="imagen">
+        <div class="post-content pt-4 pl-2">
+          <h3 class="title-new" style='color:#C6F9FB'><a href="#">Cotton Skirt For Women</a></h3>
+        </div>
+        
+          <div class="price pl-3 grid grid-cols-1 md:grid-cols-2">
+            <div>
+              <span class="new-price">$60.00</span>
+              <span class="old-price">$85.00</span>
+            </div>    
+            <div>
+              <i class='bx bxs-heart'></i>
+              <i class='bx bxs-shopping-bag'></i>
+            </div>                       
+          </div>   
+      </div>
+      
+
+        <div class="block-arrivals">
+          <img src="img/prod-1.jpg" alt="imagen">
+          <div class="post-content pt-4 pl-2">
+            <h3 class="title-new" style='color:#C6F9FB'><a href="#">Cotton Skirt For Women</a></h3>
+          </div>
+          
+            <div class="price pl-3 grid grid-cols-1 md:grid-cols-2">
+              <div>
+                <span class="new-price">$60.00</span>
+                <span class="old-price">$85.00</span>
+              </div>    
+                               
+              </div>   
+        </div>
+
+        <div class="block-arrivals">
+          <img src="img/prod-1.jpg" alt="imagen">
+          <div class="post-content pt-4 pl-2">
+            <h3 class="title-new" style='color:#C6F9FB'><a href="#">Cotton Skirt For Women</a></h3>
+          </div>
+          
+            <div class="price pl-3 grid grid-cols-1 md:grid-cols-2">
+              <div>
+                <span class="new-price">$60.00</span>
+                <span class="old-price">$85.00</span>
+              </div>    
+                               
+              </div>   
+          </div>
+
+          <div class="block-arrivals">
+            <img src="img/prod-1.jpg" alt="imagen">
+            <div class="post-content pt-4 pl-2">
+              <h3 class="title-new" style='color:#C6F9FB'><a href="#">Cotton Skirt For Women</a></h3>
+            </div>
+            
+              <div class="price pl-3 grid grid-cols-1 md:grid-cols-2">
+                <div>
+                  <span class="new-price">$60.00</span>
+                  <span class="old-price">$85.00</span>
+                </div>    
+                                 
+                </div>   
+            </div>
+  
+    </div>  
+</section>
+    
+<!--=============Trending products=================-->
+    <section class="trending flex">
+      <div class="container mx-auto px-4 py-8">
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 flex flex-wrap"> 
+          <div class="md:pr-72">
+            <h1 class="text-white text-xl sm:text-xl md:text-3xl">TRENDING PRODUCTS</h1>
+          </div>
+          <div class="nav md:pl-56 ">
+            <ul class="flex space-x-8 text-white text-xl flex-wrap">
+              <li><a href="#">MEN</a></li>
+              <li><a href="#">WOMEN</a></li>
+              <li><a href="#">KIDS</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row grid md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4 gap-5 xl:gap-8  pt-8 mx-auto">
+        
+          <div class="block-arrivals">
+            <img src="img/prod-1.jpg" alt="imagen">
+            <div class="post-content pt-4 pl-2">
+              <h3 class="title-new" style='color:#C6F9FB'><a href="#">Cotton Skirt For Women</a></h3>
+            </div>
+            
+              <div class="price pl-3 grid grid-cols-1 md:grid-cols-2">
+                <div>
+                  <span class="new-price">$60.00</span>
+                  <span class="old-price">$85.00</span>
+                </div>    
+                <div>
+                  <i class='bx bxs-heart'></i>
+                  <i class='bx bxs-shopping-bag'></i>
+                </div>                       
+              </div>   
+          </div>
+          
+    
+            <div class="block-arrivals">
+              <img src="img/prod-1.jpg" alt="imagen">
+              <div class="post-content pt-4 pl-2">
+                <h3 class="title-new" style='color:#C6F9FB'><a href="#">Cotton Skirt For Women</a></h3>
+              </div>
+              
+                <div class="price pl-3 grid grid-cols-1 md:grid-cols-2">
+                  <div>
+                    <span class="new-price">$60.00</span>
+                    <span class="old-price">$85.00</span>
+                  </div>    
+                                   
+                  </div>   
+            </div>
+    
+            <div class="block-arrivals">
+              <img src="img/prod-1.jpg" alt="imagen">
+              <div class="post-content pt-4 pl-2">
+                <h3 class="title-new" style='color:#C6F9FB'><a href="#">Cotton Skirt For Women</a></h3>
+              </div>
+              
+                <div class="price pl-3 grid grid-cols-1 md:grid-cols-2">
+                  <div>
+                    <span class="new-price">$60.00</span>
+                    <span class="old-price">$85.00</span>
+                  </div>    
+                                   
+                  </div>   
+              </div>
+    
+              <div class="block-arrivals">
+                <img src="img/prod-1.jpg" alt="imagen">
+                <div class="post-content pt-4 pl-2">
+                  <h3 class="title-new" style='color:#C6F9FB'><a href="#">Cotton Skirt For Women</a></h3>
+                </div>
+                
+                  <div class="price pl-3 grid grid-cols-1 md:grid-cols-2">
+                    <div>
+                      <span class="new-price">$60.00</span>
+                      <span class="old-price">$85.00</span>
+                    </div>    
+                                     
+                    </div>   
+                </div>
+      
+        </div>  
+      </div>      
+    </section>
+    <!--=============TOP SELLERS=================-->
+    <div class="container mx-auto sellers py-6">
+      <div class="block-seller pt-6 md:pl-5 lg:pl-36 xl:pl-64">
+        <h3 class="text-white text-xl">Top Sellers Products</h3>
+      </div>
+      <div class="flex grid grid-cols-1 mx-5 sm:grid-cols-2 sm:mx-5 md:grid-cols-2 md:mx-5 lg:grid-cols-2 lg:mx-2 xl:mx-32 sm:gap-4 md:gap-8 lg:gap-0">
+        
+        <div class="block-2 my-28 mt-8 lg:w-2/3 sm:pt-8 md:pt-12 lg:pt-36 lg:ml-32 lg:pt-12 xl:pt-12 xl:ml-32">
+          <div class="p-5 mx-8 ">
+            <h2 class="text-white">MEN POLO
+            <br>
+              CASUAL SHIRT</h2>
+            <div class="price2">
+              <span class="new-price">$30.00</span>
+              <br>
+              <span class="old-price">$90.00</span>      
+            </div>
+            <button class="px-3 py-1 bg-red-600 reunded-2 mt-3 text-white text-lg boton">BUY NOW</button>
+          </div>
+        </div>
+        <div class="block-2 my-28 mt-8 lg:w-2/3 sm:pt-8 md:pt-12 lg:pt-36  lg:pt-12 xl:pt-12 xl:ml-32">
+          <div class="p-5 pb-2 mx-8">
+            <h2 class="text-white">MEN POLO
+            <br>
+              CASUAL SHIRT</h2>
+            <div class="price2">
+              <span class="new-price">$30.00</span>
+              <br>
+              <span class="old-price">$90.00</span>      
+            </div>
+            <button class="px-3 py-1 bg-red-600 reunded-2 mt-3 text-white text-lg boton">BUY NOW</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--=============NEWEST COLLECTION=================-->
+    <section class="wood-adirondak">
+      <div class="container mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 mx-4 sm:mx-12 lg:mx-24 xl:mx-36 pt-20">
+          <h1 class="text-white text-5xl">NEWES COLLECTION</h1>
+          <br>
+          <h1 class="text-white text-5xl">Black Dress</h1>
+          <br>
+          <h2 class="text-white text-2xl text-women">Women</h2>
+          <div class="pt-4">
+            <button class="px-3 py-1 bg-red-600 reunded-2 mt-3 text-white text-lg w-48">BUY NOW</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--=============FROUM OUR=================-->
+    <div class="from-our container mx-auto my-28">
+      <div class=" mx-4 sm:mx-4 md:mx-24 lg:mx-36">
+        <div>
+          <h2 class="text-white text-3xl">FROM OUR BLOG & NEWS</h2>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 pt-6">
+          <div class="box-from">
+            <div class="box-from2 mx-5 mt-5">
+            </div>
+          </div>
+          <div class="box-texto sm:pl-12 md:pl-16 sm:py-8 md:py-16 lg:py-6">
+            <h2 class="sm:text-md  lg:text-2xl text-justify">Woman wearing beige and red floral Top
+              <br>
+              leaning on gray concrete
+            </h2>
+            <br>
+            <p class="sm:text-sm  lg:text-lg text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem distinctio cum a nemo aspernatur laborum ipsa, in est, non consectetur eos consequatur harum sunt id eum qui pariatur velit necessitatibus!</p>
+            <div class="meta top pt-4">
+              <span class="post-by"><i class='bx bx-calendar' style='color:#848688'></i><a href="#"> Aufust 2,2015</a></span>
+              <span class="post-date pl-4 text-lg"><i class='bx bxs-heart' style='color:#848688'></i> 115</span>
+            </div>
+            <div class="pt-4">
+              <button class="px-3 py-1 bg-red-600 reunded-2 mt-3 text-white text-lg w-28">BUY NOW</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <!--============= FIN DE FROUM OUR=================-->
+    <!--============= SUBSCRIBE NEWSLETTER=================-->
+    <article class="subscribe-newsleter">
+    <div class="container mx-auto py-16">
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:gap-24">
+        <div class="flex  justify-center sm:justify-center md:justify-end">
+          <h2 class="text-white sm:pr-12 sm:pt-4 sm:text-md md:pt-0 md:pr-0 md:text-lg md:pr-12 md:pt-3 lg:text-3xl ">SUBSCRIBE OUR NEWSLETER</h2>
+        </div>    
+        <div class="search-box flex justify-center sm:justify-center md:justify-end lg:justify-start">
+            <input type="search" class="p-3 px-8 sm:w-72 md:w-72 lg:w-96 " name="search" id="search" placeholder="Enter your email here">
+            <button type="submit"><i class='bx bxs-paper-plane' style='color:#fe4536'></i></button>
+        </div>
+      </div>
+    </div>
+    </article>
+    <!--============= FIN DE SUBSCRIBE NEWSLETTER=================-->
+    <!--============= FOOTER =================-->
+    <footer class="footer-new">
+      <div class="container mx-auto my-16">
+       <div class="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-3">
+        <div class="px-6">
+            <h2 class="text-white">Do you need Help?</h2>
+              <br>
+            <p class="text-white text-justify sm:text-xs md:text-2xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium facilis at deleniti voluptates pariatur unde nam ipsam?</p>
+            <div class="pt-4">
+              <div>
+                <i class='bx bx-phone' style='color:#ffffff'> 9887-152-435</i>
+              </div>
+              <div>
+                <i class='bx bx-envelope-open' style='color:#ffffff'> Email@yourcompanyname.com</i>
+              </div>
+            </div>
+        </div>
+        
+        <div class="pt-4 sm:pt-0 md:pt-0 mx-8 sm:mx-8 md:mx-8 lg:mx-24 lista-footer">
+          <h2 class="text-white">Important Info</h2>
+          <ul class="pt-4 text-36 md:text-2xl">
+            <li class="py-1 "><a href="#"> Terms & Conditions</a></li>
+            <li class="py-1"><a href="#"> Submission Specifications</a></li>
+            <li class="py-1"><a href="#"> Refund Policy</a></li>
+            <li class="py-1"><a href="#"> Privacy Policy</a></li>
+            <li class="py-1"><a href="#"> Delivery information</a></li>
+          </ul>
+        </div>
+        
+        <div class="pt-4 sm:pt-0 md:pt-0 mx-8 sm:mx-8 md:mx-8 lg:mx-24  redes-footer">
+          <h2 class="text-white">Social Media</h2>
+          <ul class="pt-4">
+            <li class="py-1"><a href="#"><i class='bx bxl-facebook-square' style='color:#ffffff'> Facebook</i></a></li>
+            <li class="py-1"><a href="#"><i class='bx bxl-twitter' style='color:#ffffff' > Twitter</i></a></li>
+            <li class="py-1"><a href="#"><i class='bx bxl-linkedin' style='color:#ffffff' > Linked In</i></a></li>
+            <li class="py-1"><a href="#"><i class='bx bxl-youtube'> Youtube</i></a></li>
+          </ul>
+        </div>
+       </div>
+      </div>
+      <div class="pie-pagina py-2">
+        
+      </div>
+      <div class=" mx-12 sm:mx-12 md:mx-36 py-2">
+        <p class="text-white">2015-2019 companyname.com All rights are reserved</p>
+       </div>
+    </footer>
+    <!--============= FIN DE FOOTER =================-->
+    </main>
+</body>
+
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<script src="js/script.js"></script>
+<script src="js/jquery-3.6.4.js"></script>
+<script src="https://unpkg.com/flowbite@1.4.0/dist/flowbite.js"></script>
+</html>
